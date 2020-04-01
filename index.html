@@ -361,6 +361,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -530,6 +540,16 @@ interface Yiyi2 {    void
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/03/31/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/03/31/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -769,7 +789,10 @@ interface Yiyi2 {    void
               </ul>
             </div>
           
-
+		  
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1371702239&auto=1&height=66">
+				</iframe>
+				
           
 
         </div>
@@ -982,6 +1005,28 @@ interface Yiyi2 {    void
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'KniFkP1JpDaqJxqwOTNdlf11-gzGzoHsz',
+        appKey: 'Bu5MGx7lTXWNy01LrRPdR1iU',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
