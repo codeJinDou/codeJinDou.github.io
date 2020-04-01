@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-31T14:03:53.086Z</updated>
+  <updated>2020-04-01T03:00:19.716Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java编程思想 第四版</title>
+    <link href="http://yoursite.com/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/"/>
+    <id>http://yoursite.com/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/</id>
+    <published>2020-04-01T02:58:06.000Z</published>
+    <updated>2020-04-01T03:00:19.716Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>###第九章  练习14interface Monster2 {void Method1();void Method2();</code></pre><p>}</p><p>interface Jinjin2 {<br>    void Method3();</p><pre><code>void Method4();</code></pre><p>}</p><p>interface Yiyi2 {<br>    void Method5();</p><pre><code>void Method6();</code></pre><p>}</p><p>interface Renren2 extends Monster2, Jinjin2, Yiyi2 {<br>    void Method7();<br>}</p><p>class Class3 {</p><p>}</p><p>class Class4 extends Class2 {<br>    Renren renren = new Renren() {<br>        @Override<br>        public void Method7() {</p><pre><code>    }    @Override    public void Method5() {    }    @Override    public void Method6() {    }    @Override    public void Method3() {    }    @Override    public void Method4() {    }    @Override    public void Method1() {    }    @Override    public void Method2() {    }};</code></pre><p>}</p><p>class Clacc2 {<br>    public static void M(Object m) {</p><pre><code>}public static void J(Object j) {}public static void Y(Object y) {}public static void R(Object r) {}</code></pre><p>}</p><p>abstract class ATTClass{<br>    abstract void att();<br>}<br>public class Test107 extends ATTClass {<br>    @Override<br>    void att() {<br>        System.out.println(“Test107.att()”);<br>    }<br>    public static void main(String[] args) {<br>        Class4 class4 = new Class4();<br>        Clacc.M(class4);<br>        Clacc.J(class4);<br>        Clacc.R(class4);<br>        Clacc.Y(class4);<br>        new Test107().att();</p><pre><code>}</code></pre><p>}</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;###第九章  练习14
+
+interface Monster2 {
+void Method1();
+
+void Method2();&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;interface Jinjin2 {&lt;br&gt;    void Metho
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第二遍文章</title>
