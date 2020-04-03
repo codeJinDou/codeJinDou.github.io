@@ -367,14 +367,14 @@ public static void R(Object r) {
       </tags>
   </entry>
   <entry>
-    <title>微服务系列</title>
-    <url>/2020/04/02/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%B3%BB%E5%88%97/</url>
+    <title>消息中间件</title>
+    <url>/2020/04/02/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>微服务系列</category>
+        <category>消息中间件</category>
       </categories>
       <tags>
-        <tag>Springcloud, Dubbo</tag>
+        <tag>RibbitMQ, RecketMQ, ActiveMQ. Redis, ZeroMQ, Kfaka</tag>
       </tags>
   </entry>
   <entry>
@@ -389,17 +389,6 @@ public static void R(Object r) {
       </tags>
   </entry>
   <entry>
-    <title>消息中间件</title>
-    <url>/2020/04/02/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>消息中间件</category>
-      </categories>
-      <tags>
-        <tag>RibbitMQ, RecketMQ, ActiveMQ. Redis, ZeroMQ, Kfaka</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>爪哇frame</title>
     <url>/2020/04/02/%E7%88%AA%E5%93%87frame/</url>
     <content><![CDATA[]]></content>
@@ -411,14 +400,14 @@ public static void R(Object r) {
       </tags>
   </entry>
   <entry>
-    <title>缓存系列</title>
-    <url>/2020/04/02/%E7%BC%93%E5%AD%98%E7%B3%BB%E5%88%97/</url>
+    <title>微服务系列</title>
+    <url>/2020/04/02/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%B3%BB%E5%88%97/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>缓存系列</category>
+        <category>微服务系列</category>
       </categories>
       <tags>
-        <tag>Ehcache</tag>
+        <tag>Springcloud, Dubbo</tag>
       </tags>
   </entry>
   <entry>
@@ -429,5 +418,16 @@ public static void R(Object r) {
         哈哈!
 
         --</code></pre>]]></content>
+  </entry>
+  <entry>
+    <title>缓存系列</title>
+    <url>/2020/04/02/%E7%BC%93%E5%AD%98%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>缓存系列</category>
+      </categories>
+      <tags>
+        <tag>Ehcache</tag>
+      </tags>
   </entry>
 </search>
