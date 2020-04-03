@@ -356,17 +356,6 @@ public static void R(Object r) {
       </tags>
   </entry>
   <entry>
-    <title>微服务系列</title>
-    <url>/2020/04/02/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%B3%BB%E5%88%97/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>微服务系列</category>
-      </categories>
-      <tags>
-        <tag>Springcloud, Dubbo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>云服务</title>
     <url>/2020/04/02/%E4%BA%91%E6%9C%8D%E5%8A%A1/</url>
     <content><![CDATA[]]></content>
@@ -375,6 +364,17 @@ public static void R(Object r) {
       </categories>
       <tags>
         <tag>leancloud, DaoVoice</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微服务系列</title>
+    <url>/2020/04/02/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>微服务系列</category>
+      </categories>
+      <tags>
+        <tag>Springcloud, Dubbo</tag>
       </tags>
   </entry>
   <entry>
@@ -400,17 +400,6 @@ public static void R(Object r) {
       </tags>
   </entry>
   <entry>
-    <title>缓存系列</title>
-    <url>/2020/04/02/%E7%BC%93%E5%AD%98%E7%B3%BB%E5%88%97/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>缓存系列</category>
-      </categories>
-      <tags>
-        <tag>Ehcache</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>爪哇frame</title>
     <url>/2020/04/02/%E7%88%AA%E5%93%87frame/</url>
     <content><![CDATA[]]></content>
@@ -419,6 +408,17 @@ public static void R(Object r) {
       </categories>
       <tags>
         <tag>Struts1, Struts2, Herbernate, Mybaties, Spring, Springmvc, Springboot Springcloud, Spring data jpa</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>缓存系列</title>
+    <url>/2020/04/02/%E7%BC%93%E5%AD%98%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>缓存系列</category>
+      </categories>
+      <tags>
+        <tag>Ehcache</tag>
       </tags>
   </entry>
   <entry>
