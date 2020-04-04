@@ -56,6 +56,17 @@
       </tags>
   </entry>
   <entry>
+    <title>Springcloud</title>
+    <url>/2020/04/04/Springcloud/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>云服务</category>
+      </categories>
+      <tags>
+        <tag>Springcloud</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Springboot</title>
     <url>/2020/04/04/Springboot/</url>
     <content><![CDATA[]]></content>
@@ -506,11 +517,6 @@ public static void R(Object r) {
   <entry>
     <title>Herbernate</title>
     <url>/2020/04/04/Herbernate/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>SpringCloud</title>
-    <url>/2020/04/04/Springcloud/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>

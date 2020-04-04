@@ -142,17 +142,21 @@
   </entry>
   
   <entry>
-    <title>SpringCloud</title>
+    <title>Springcloud</title>
     <link href="http://yoursite.com/2020/04/04/Springcloud/"/>
     <id>http://yoursite.com/2020/04/04/Springcloud/</id>
     <published>2020-04-04T09:08:49.000Z</published>
-    <updated>2020-04-04T09:08:49.692Z</updated>
+    <updated>2020-04-04T10:52:13.879Z</updated>
     
     <summary type="html">
     
     </summary>
     
     
+      <category term="云服务" scheme="http://yoursite.com/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1/"/>
+    
+    
+      <category term="Springcloud" scheme="http://yoursite.com/tags/Springcloud/"/>
     
   </entry>
   
