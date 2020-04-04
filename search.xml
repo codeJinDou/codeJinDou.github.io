@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Springboot</title>
+    <url>/2020/04/04/Springboot/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Springboot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Springmvc</title>
+    <url>/2020/04/04/Springmvc/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Springmvc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring</title>
+    <url>/2020/04/04/Spring/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爪哇frame</title>
+    <url>/2020/04/02/%E7%88%AA%E5%93%87frame/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Struts1, Struts2, Herbernate, Mybaties,</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>java编程思想 第四版</title>
     <url>/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/</url>
     <content><![CDATA[<pre><code>###第九章 练习1</code></pre><p>public class Test93 {<br>    public static void main(String[] args) {<br>        Rodent4[] rodents = {new Mouse4(),new Gerbil4(),new Hamster4()};<br>        for (Rodent4 r : rodents){<br>            r.universal();<br>            System.out.println(r);<br>        }<br>    }<br>}</p>
@@ -356,6 +400,11 @@ public static void R(Object r) {
       </tags>
   </entry>
   <entry>
+    <title>SpringCloud</title>
+    <url>/2020/04/04/Springcloud/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>消息中间件</title>
     <url>/2020/04/02/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
     <content><![CDATA[]]></content>
@@ -408,17 +457,6 @@ public static void R(Object r) {
       </categories>
       <tags>
         <tag>Springcloud, Dubbo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>爪哇frame</title>
-    <url>/2020/04/02/%E7%88%AA%E5%93%87frame/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Struts1, Struts2, Herbernate, Mybaties, Spring, Springmvc, Springboot Springcloud, Spring data jpa</tag>
       </tags>
   </entry>
   <entry>
