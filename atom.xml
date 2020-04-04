@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-04T09:08:49.692Z</updated>
+  <updated>2020-04-04T09:17:57.862Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Herbernate</title>
+    <link href="http://yoursite.com/2020/04/04/Herbernate/"/>
+    <id>http://yoursite.com/2020/04/04/Herbernate/</id>
+    <published>2020-04-04T09:17:57.000Z</published>
+    <updated>2020-04-04T09:17:57.862Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Struts2</title>
+    <link href="http://yoursite.com/2020/04/04/Struts2/"/>
+    <id>http://yoursite.com/2020/04/04/Struts2/</id>
+    <published>2020-04-04T09:17:37.000Z</published>
+    <updated>2020-04-04T09:19:15.353Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="爪哇frame" scheme="http://yoursite.com/categories/%E7%88%AA%E5%93%87frame/"/>
+    
+    
+      <category term="Struts2" scheme="http://yoursite.com/tags/Struts2/"/>
+    
+  </entry>
   
   <entry>
     <title>SpringCloud</title>
@@ -188,7 +222,7 @@
     <link href="http://yoursite.com/2020/04/02/%E7%88%AA%E5%93%87frame/"/>
     <id>http://yoursite.com/2020/04/02/%E7%88%AA%E5%93%87frame/</id>
     <published>2020-04-02T05:15:24.000Z</published>
-    <updated>2020-04-04T09:12:41.451Z</updated>
+    <updated>2020-04-04T09:18:17.678Z</updated>
     
     <summary type="html">
     
@@ -198,7 +232,7 @@
       <category term="爪哇frame" scheme="http://yoursite.com/categories/%E7%88%AA%E5%93%87frame/"/>
     
     
-      <category term="Struts1, Struts2, Herbernate, Mybaties," scheme="http://yoursite.com/tags/Struts1-Struts2-Herbernate-Mybaties/"/>
+      <category term="Mybaties" scheme="http://yoursite.com/tags/Mybaties/"/>
     
   </entry>
   
