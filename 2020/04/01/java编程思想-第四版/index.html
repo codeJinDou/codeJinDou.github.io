@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 
 
-<script type="text/javascript"
-color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
-
-
 
 
 
@@ -106,14 +102,14 @@ daovoice('update');
 
 
 
-<meta name="description" content="###第九章 练习1public class Test93 {    public static void main(String[] args) {        Rodent4[] rodents &#x3D; {new Mouse4(),new Gerbil4(),new Hamster4()};        for (Rodent4 r : rodents){            r.unive">
+<meta name="description" content="#第九章 练习1public class Test93 {    public static void main(String[] args) {        Rodent4[] rodents &#x3D; {new Mouse4(),new Gerbil4(),new Hamster4()};        for (Rodent4 r : rodents){            r.univers">
 <meta property="og:type" content="article">
-<meta property="og:title" content="java编程思想 第四版">
+<meta property="og:title" content="Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习)">
 <meta property="og:url" content="http://yoursite.com/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/index.html">
 <meta property="og:site_name" content="codeJinDou &#96;Blog">
-<meta property="og:description" content="###第九章 练习1public class Test93 {    public static void main(String[] args) {        Rodent4[] rodents &#x3D; {new Mouse4(),new Gerbil4(),new Hamster4()};        for (Rodent4 r : rodents){            r.unive">
+<meta property="og:description" content="#第九章 练习1public class Test93 {    public static void main(String[] args) {        Rodent4[] rodents &#x3D; {new Mouse4(),new Gerbil4(),new Hamster4()};        for (Rodent4 r : rodents){            r.univers">
 <meta property="article:published_time" content="2020-04-01T02:58:06.000Z">
-<meta property="article:modified_time" content="2020-04-03T14:48:38.575Z">
+<meta property="article:modified_time" content="2020-04-06T06:01:21.196Z">
 <meta property="article:author" content="任金义">
 <meta property="article:tag" content="书籍">
 <meta name="twitter:card" content="summary">
@@ -152,7 +148,7 @@ daovoice('update');
 
 
 
-  <title>java编程思想 第四版 | codeJinDou `Blog</title>
+  <title>Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习) | codeJinDou `Blog</title>
   
 
 
@@ -353,7 +349,7 @@ daovoice('update');
 
         
         
-          <h1 class="post-title" itemprop="name headline">java编程思想 第四版</h1>
+          <h1 class="post-title" itemprop="name headline">Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习)</h1>
         
 
         <div class="post-meta">
@@ -415,7 +411,7 @@ daovoice('update');
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.5k words
+                  1.8k words
                 </span>
               
 
@@ -433,7 +429,7 @@ daovoice('update');
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  9 min
+                  10 min
                 </span>
               
             </div>
@@ -454,7 +450,7 @@ daovoice('update');
       
 
       
-        <pre><code>###第九章 练习1</code></pre><p>public class Test93 {<br>    public static void main(String[] args) {<br>        Rodent4[] rodents = {new Mouse4(),new Gerbil4(),new Hamster4()};<br>        for (Rodent4 r : rodents){<br>            r.universal();<br>            System.out.println(r);<br>        }<br>    }<br>}</p>
+        <pre><code>#第九章 练习1</code></pre><p>public class Test93 {<br>    public static void main(String[] args) {<br>        Rodent4[] rodents = {new Mouse4(),new Gerbil4(),new Hamster4()};<br>        for (Rodent4 r : rodents){<br>            r.universal();<br>            System.out.println(r);<br>        }<br>    }<br>}</p>
 <p>abstract class Rodent4{<br>    public abstract void universal();<br>}</p>
 <p>class Mouse4 extends Rodent4{<br>    public void universal(){<br>        System.out.println(“Mouse4.method”);<br>    }</p>
 <pre><code>@Override
@@ -801,6 +797,68 @@ public static void R(Object r) {
 }</code></pre><p>}</p>
 <p>abstract class ATTClass{<br>    abstract void att();<br>}<br>public class Test107 extends ATTClass {<br>    @Override<br>    void att() {<br>        System.out.println(“Test107.att()”);<br>    }<br>    public static void main(String[] args) {<br>        Class4 class4 = new Class4();<br>        Clacc.M(class4);<br>        Clacc.J(class4);<br>        Clacc.R(class4);<br>        Clacc.Y(class4);<br>        new Test107().att();</p>
 <pre><code>}</code></pre><p>}</p>
+<pre><code>#练习18</code></pre><p>/** * java编程思想第九章  练习18 */<br>    interface Cycle10{<br>    void method1();<br>}<br>interface Cycle10Factory{<br>    Cycle10 getCycle10();<br>}<br>class Unicycle10 implements Cycle10{</p>
+<pre><code>@Override
+public void method1() {
+    System.out.println(&quot;Unicycle10.method1()&quot;);
+}</code></pre><p>}</p>
+<p>class Unicycle10Factory implements Cycle10Factory{</p>
+<pre><code>@Override
+public Cycle10 getCycle10() {
+    return new Unicycle10();
+}</code></pre><p>}</p>
+<p>class Bicycle10 implements Cycle10{</p>
+<pre><code>@Override
+public void method1() {
+    System.out.println(&quot;Bicycle10.method1()&quot;);
+}</code></pre><p>}</p>
+<p>class Bicycle10Factory implements Cycle10Factory{</p>
+<pre><code>@Override
+public Cycle10 getCycle10() {
+    return new Bicycle10();
+}</code></pre><p>}<br>class Tricycle10 implements Cycle10{</p>
+<pre><code>@Override
+public void method1() {
+    System.out.println(&quot;Tricycle10.method1()&quot;);
+}</code></pre><p>}<br>class Tricycle10Factory implements Cycle10Factory{</p>
+<pre><code>@Override
+public Cycle10 getCycle10() {
+    return new Tricycle10();
+}</code></pre><p>}<br>public class Test110 {<br>    public static void Test1(Unicycle10Factory unicycle10Factory) {<br>        Cycle10 cycle10 = unicycle10Factory.getCycle10();<br>        cycle10.method1();<br>    }</p>
+<pre><code>public static void Test2(Bicycle10Factory bicycle10Factory) {
+    Cycle10 cycle10 = bicycle10Factory.getCycle10();
+    cycle10.method1();
+}
+
+public static void Test3(Tricycle10Factory tricycle10Factory) {
+    Cycle10 cycle10 = tricycle10Factory.getCycle10();
+    cycle10.method1();
+}
+
+public static void main(String[] args) {
+    Test1(new Unicycle10Factory());
+    Test2(new Bicycle10Factory());
+    Test3(new Tricycle10Factory());
+
+
+}</code></pre><p>}</p>
+<pre><code>#练习19</code></pre><p>/**</p>
+<ul>
+<li>java编程思想第九章 练习19</li>
+<li>/</li>
+</ul>
+<p>public class Test111 {<br>    public static ThrowImpl ThrowFileFactory1(){<br>        return new ThrowImpl().getThrow();<br>    }<br>    public static FilpImpl ThrowFileFactory2(){<br>        return (FilpImpl) new FilpImpl().getfilp();<br>    }</p>
+<pre><code>public static void main(String[] args) {
+   ThrowFileFactory1();
+   ThrowFileFactory2();
+}</code></pre><p>}<br>interface Throw{<br>    ThrowImpl getThrow();<br>}</p>
+<p>interface Filp{<br>    Filp getfilp();<br>}<br>class ThrowImpl implements Throw{</p>
+<pre><code>@Override
+public ThrowImpl getThrow() {
+    System.out.println(&quot;工厂方法实现了抛硬币功能&quot;);
+    return new ThrowImpl();
+}</code></pre><p>}</p>
+<p>class FilpImpl implements Filp{<br>    @Override<br>    public Filp getfilp() {<br>        System.out.println(“工厂方法执行了掷筛子功能”);<br>        return new FilpImpl();<br>    }<br>}</p>
 
       
     </div>
@@ -880,8 +938,8 @@ public static void R(Object r) {
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/04/02/%E7%88%AA%E5%93%87frame/" rel="prev" title="爪哇frame">
-                爪哇frame <i class="fa fa-chevron-right"></i>
+              <a href="/2020/04/01/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E7%AC%AC%E5%9B%9B%E7%89%88(Interfaces%20)----%E7%AC%AC9%E7%AB%A0%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A01-19(%E4%B8%AA%E4%BA%BA%E7%BB%83%E4%B9%A0)/" rel="prev" title="java编程思想 第四版 第九章 练习1-19(个人练习)">
+                java编程思想 第四版 第九章 练习1-19(个人练习) <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -984,7 +1042,7 @@ public static void R(Object r) {
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1387,7 +1445,7 @@ if(canvas.getContext){
     <h3 class="widget-title">Tag Cloud</h3>
     <div id="myCanvasContainer" class="widget tagcloud">
         <canvas width="250" height="250" id="resCanvas" style="width=100%">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ActiveMQ/" rel="tag">ActiveMQ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DaoVoice/" rel="tag">DaoVoice</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Dubbo/" rel="tag">Dubbo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ehcache/" rel="tag">Ehcache</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Kafka/" rel="tag">Kafka</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mybaties/" rel="tag">Mybaties</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RibbitMQ/" rel="tag">RibbitMQ,</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring/" rel="tag">Spring</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Springboot/" rel="tag">Springboot</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Springcloud/" rel="tag">Springcloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Springmvc/" rel="tag">Springmvc</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Struts2/" rel="tag">Struts2</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/leancloud/" rel="tag">leancloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/" rel="tag">redis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B9%A6%E7%B1%8D/" rel="tag">书籍</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AD%89%E7%AD%89/" rel="tag">等等</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ActiveMQ/" rel="tag">ActiveMQ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DaoVoice/" rel="tag">DaoVoice</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Dubbo/" rel="tag">Dubbo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ehcache/" rel="tag">Ehcache</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Kafka/" rel="tag">Kafka</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mybaties/" rel="tag">Mybaties</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RibbitMQ/" rel="tag">RibbitMQ,</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring/" rel="tag">Spring</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Springboot/" rel="tag">Springboot</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Springcloud/" rel="tag">Springcloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Springmvc/" rel="tag">Springmvc</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Struts2/" rel="tag">Struts2</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/leancloud/" rel="tag">leancloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/" rel="tag">redis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B9%A6%E7%B1%8D/" rel="tag">书籍</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AD%89%E7%AD%89/" rel="tag">等等</a><span class="tag-list-count">1</span></li></ul>
         </canvas>
     </div>
 </div>
@@ -1446,7 +1504,7 @@ setInterval("createtime()",250);
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共1.6k字</span>
+  <span class="post-count">博客全站共3.4k字</span>
 </div>
 
 
@@ -1985,6 +2043,7 @@ setInterval("createtime()",250);
   
 
  
+
 
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":190,"height":250},"mobile":{"show":true},"react":{"opacity":1},"log":false});</script></body>
 </html>
