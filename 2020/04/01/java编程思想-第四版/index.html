@@ -102,14 +102,14 @@ daovoice('update');
 
 
 
-<meta name="description" content="#第九章 练习1public class Test93 {    public static void main(String[] args) {        Rodent4[] rodents &#x3D; {new Mouse4(),new Gerbil4(),new Hamster4()};        for (Rodent4 r : rodents){            r.univers">
+<meta name="description" content="眼泪终究流不成海洋，人总要不断成长。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习)">
+<meta property="og:title" content="Java编程思想-第四版">
 <meta property="og:url" content="http://yoursite.com/2020/04/01/java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E7%AC%AC%E5%9B%9B%E7%89%88/index.html">
 <meta property="og:site_name" content="codeJinDou &#96;Blog">
-<meta property="og:description" content="#第九章 练习1public class Test93 {    public static void main(String[] args) {        Rodent4[] rodents &#x3D; {new Mouse4(),new Gerbil4(),new Hamster4()};        for (Rodent4 r : rodents){            r.univers">
+<meta property="og:description" content="眼泪终究流不成海洋，人总要不断成长。">
 <meta property="article:published_time" content="2020-04-01T02:58:06.000Z">
-<meta property="article:modified_time" content="2020-04-06T06:01:21.196Z">
+<meta property="article:modified_time" content="2020-04-06T06:07:19.082Z">
 <meta property="article:author" content="任金义">
 <meta property="article:tag" content="书籍">
 <meta name="twitter:card" content="summary">
@@ -148,7 +148,7 @@ daovoice('update');
 
 
 
-  <title>Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习) | codeJinDou `Blog</title>
+  <title>Java编程思想-第四版 | codeJinDou `Blog</title>
   
 
 
@@ -349,7 +349,7 @@ daovoice('update');
 
         
         
-          <h1 class="post-title" itemprop="name headline">Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习)</h1>
+          <h1 class="post-title" itemprop="name headline">Java编程思想-第四版</h1>
         
 
         <div class="post-meta">
@@ -411,7 +411,7 @@ daovoice('update');
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.8k words
+                  0 words
                 </span>
               
 
@@ -429,7 +429,7 @@ daovoice('update');
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  10 min
+                  1 min
                 </span>
               
             </div>
@@ -450,416 +450,7 @@ daovoice('update');
       
 
       
-        <pre><code>#第九章 练习1</code></pre><p>public class Test93 {<br>    public static void main(String[] args) {<br>        Rodent4[] rodents = {new Mouse4(),new Gerbil4(),new Hamster4()};<br>        for (Rodent4 r : rodents){<br>            r.universal();<br>            System.out.println(r);<br>        }<br>    }<br>}</p>
-<p>abstract class Rodent4{<br>    public abstract void universal();<br>}</p>
-<p>class Mouse4 extends Rodent4{<br>    public void universal(){<br>        System.out.println(“Mouse4.method”);<br>    }</p>
-<pre><code>@Override
-public String toString() {
-    return &quot;Mouse4&quot;;
-}</code></pre><p>}<br>class Gerbil4 extends Rodent4{<br>    public void universal(){<br>        System.out.println(“Gerbil4.method”);<br>    }<br>    @Override<br>    public String toString() {<br>        return “Gerbil4”;<br>    }<br>}<br>class Hamster4 extends Rodent4{<br>    public void universal(){<br>        System.out.println(“Hamster4.method”);<br>    }<br>    @Override<br>    public String toString() {<br>        return “Hamster4”;<br>    }<br>}</p>
-<pre><code>    ###第九章 练习2
-
-abstract class T{
-void t(){
-    System.out.println(&quot;T.t()&quot;);
-
-}</code></pre><p>}<br>public class Test94 {<br>    public static void main(String[] args) {<br>        //T t = new T();<br>    }<br>}</p>
-<pre><code>###第九章 练习3</code></pre><p>abstract class Print{<br>    Print(){<br>       print();<br>    }<br>    public abstract void print();<br>}<br>class Print1 extends Print{<br>    private int i = 5;<br>    public void print(){<br>        System.out.println(“Print1.print()  整形变量的值: “ + “ “ + i);<br>    }<br>    }<br>public class Test95 {<br>    public static void main(String[] args) {<br>        new Print1().print();<br>    }<br>}</p>
-<pre><code>###第九章 练习4
-
-public class Test96 {
-public static void getMethod(Abs abs) {
-    ((Abs2) abs).abs2();
-}
-
-public static void getMethod2(Abs3 abs) {
-    abs.abs3();
-}
-
-public static void main(String[] args) {
-    Test96.getMethod(new Abs2());
-    Test96.getMethod2(new Abs4());
-}</code></pre><p>}</p>
-<p>abstract class Abs {<br>    //public abstract void getMethod();<br>}</p>
-<p>class Abs2 extends Abs {<br>    public void abs2() {<br>        System.out.println(“Abs2.abs2()..”);<br>    }</p>
-<p>}</p>
-<p>abstract class Abs3 {<br>    abstract public void abs3();<br>}</p>
-<p>class Abs4 extends Abs3 {<br>    @Override<br>    public void abs3() {<br>        System.out.println(“Abs4.abs3()”);<br>    }<br>}</p>
-<pre><code>###第九章 练习5
-    --答案略过
-
-###第九章 练习6
-    --答案略过
-
-###第九章 练习7</code></pre><p>public class Test99 {</p>
-<pre><code>/*@Override
-public void Mouse() {
-    System.out.println(&quot;老鼠&quot;);
-}
-
-@Override
-public void Gerbil() {
-    System.out.println(&quot;Ger 鼠&quot;);
-}
-
-@Override
-public void Hamster() {
-    System.out.println(&quot;大➕鼠&quot;);
-}
-
-public static void main(String[] args) {
-    Test99 test99 = new Test99();
-    test99.Gerbil();
-    test99.Hamster();
-    test99.Mouse();
-
-}*/
-public static void main(String[] args) {
-    Rodent10[] rodents = {new Mouse10(),new Gerbil10(),new Hamster10()};
-    for (Rodent10 r : rodents){
-        r.universal();
-    }
-}</code></pre><p>}</p>
-<p>interface Rodent10{<br>    void universal();<br>}</p>
-<p>class Mouse10 implements Rodent10{<br>    public void universal(){<br>        System.out.println(“Mouse10.method”);<br>    }<br>}<br>class Gerbil10 implements Rodent10{<br>    public void universal(){<br>        System.out.println(“Gerbil10.method”);<br>    }<br>}<br>class Hamster10 implements Rodent10{<br>    public void universal(){<br>        System.out.println(“Hamster10.method”);<br>    }<br>}</p>
-<p>   ###第九章 练习8</p>
-<p>public class Test100 {<br>    public static void main(String[] args) {<br>        (new FastFoodImpl()).One1();<br>    }<br>}</p>
-<p>interface FastFood{<br>    void One1();<br>}<br>class FastFoodImpl implements FastFood{</p>
-<pre><code>@Override
-public void One1() {
-    System.out.println(&quot;FastFoodImpl.One1()&quot;);
-}</code></pre><p>}</p>
-<pre><code>###第九章 练习9
-
-enum Note{
-MIDDLE_C, C_SHARP, B_FLAT</code></pre><p>}<br>interface Instrument {</p>
-<pre><code>int VALUE = 5;
-
-void adjust();</code></pre><p>}</p>
-<p>interface Playable {<br>    void play(Note n);<br>}</p>
-<p>abstract class Common {<br>    public abstract void play(Note n);</p>
-<pre><code>public abstract void adjust();</code></pre><p>}</p>
-<p>class Wind implements Instrument, Playable {</p>
-<pre><code>/* public void play(Note n) { System.out.println(&quot;Wind.play() &quot; + n); }*/
-public String toString() {
-    return &quot;Wind&quot;;
-}
-
-@Override
-public void adjust() {
-    System.out.println(&quot;Adjusting Wind&quot;);
-}
-
-@Override
-public void play(Note n) {
-    System.out.println(&quot;Windinterface.play() &quot; + n);
-}</code></pre><p>}</p>
-<p>class Percussion implements Instrument, Playable {<br>    /* @Override<br>     public void play(Note n) { System.out.println(“Percussion.play() “ + n); }*/<br>    public String toString() {<br>        return “Percussion”;<br>    }</p>
-<pre><code>@Override
-public void adjust() {
-    System.out.println(&quot;Adjusting Percussion&quot;);
-}
-
-@Override
-public void play(Note n) {
-    System.out.println(&quot;Percussioninterface.play() &quot; + n);
-}</code></pre><p>}</p>
-<p>class Stringed implements Instrument, Playable {<br>    /<em>@Override<br>    public void play(Note n) { System.out.println(“Stringed.play() “ + n); }</em>/<br>    public String toString() {<br>        return “Stringed”;<br>    }</p>
-<pre><code>@Override
-public void adjust() {
-    System.out.println(&quot;Adjusting Stringed&quot;);
-}
-
-@Override
-public void play(Note n) {
-    System.out.println(&quot;Stringedinterface.play() &quot; + n);
-}</code></pre><p>}</p>
-<p>class Brass extends Wind {<br>    @Override<br>    public void play(Note n) {<br>        System.out.println(“Brass.play() “ + n);<br>    }</p>
-<pre><code>public void adjust() {
-    System.out.println(&quot;Adjusting Brass&quot;);
-}</code></pre><p>}</p>
-<p>class Woodwind extends Wind {<br>    @Override<br>    public void play(Note n) {<br>        System.out.println(“Woodwind.play() “ + n);<br>    }</p>
-<pre><code>public String toString() {
-    return &quot;Woodwind&quot;;
-}</code></pre><p>}</p>
-<p>public class Test101 {<br>    // Doesn’t care about type, so new types<br>    // added to the system still work right:<br>    public static void tune(Playable p) {<br>        // …<br>        p.play(Note.MIDDLE_C);<br>    }</p>
-<pre><code>public static void tuneAll(Playable[] e) {
-    for (Playable i : e) {
-         tune(i);
-        System.out.println(i);
-    }
-
-}
-
-public static void main(String[] args) {
-    // Upcasting during addition to the array:
-    Playable[] playable = {
-            new Wind(),
-            new Percussion(),
-            new Stringed(),
-            // new Brass(),
-            //new Woodwind()
-    };
-    tuneAll(playable);
-
-
-}</code></pre><p>}</p>
-<pre><code>###第九章 练习10
-
-enum Note{
-MIDDLE_C, C_SHARP, B_FLAT</code></pre><p>}</p>
-<p>interface Instrument{<br>    int VALUE = 5;<br>            void play(Note n);<br>            void adjust();<br>            }<br>abstract class Common{<br>    public abstract void play(Note n);<br>    public abstract void adjust();<br>}</p>
-<p>class Wind implements Instrument {<br>    @Override<br>    public void play(Note n) { System.out.println(“Wind.play() “ + n); }<br>    public String toString() {<br>        return “Wind”;<br>    }<br>    @Override<br>    public void adjust() { System.out.println(“Adjusting Wind”); }<br>}</p>
-<p>class Percussion implements Instrument {<br>    @Override<br>    public void play(Note n) { System.out.println(“Percussion.play() “ + n); }<br>    public String toString() {<br>        return “Percussion”;<br>    }<br>    @Override<br>    public void adjust() { System.out.println(“Adjusting Percussion”); }<br>}</p>
-<p>class Stringed implements Instrument {<br>    @Override<br>    public void play(Note n) { System.out.println(“Stringed.play() “ + n); }<br>    public String toString() {<br>        return “Stringed”;<br>    }<br>    @Override<br>    public void adjust() { System.out.println(“Adjusting Stringed”); }<br>}</p>
-<p>class Brass extends Wind {<br>    @Override<br>    public void play(Note n) { System.out.println(“Brass.play() “ + n); }<br>    public void adjust() { System.out.println(“Adjusting Brass”); }<br>}</p>
-<p>class Woodwind extends Wind {<br>    @Override<br>    public void play(Note n) {System.out.println(“Woodwind.play() “ + n); }</p>
-<pre><code>public String toString() {
-    return &quot;Woodwind&quot;;
-}</code></pre><p>}</p>
-<p>public class Test102 {<br>    // Doesn’t care about type, so new types<br>    // added to the system still work right:<br>    public static void tune(Instrument i) {<br>        // …<br>        i.play(Note.MIDDLE_C);<br>    }</p>
-<pre><code>public static void tuneAll(Instrument[] e) {
-    for (Instrument i : e) {
-        // tune(i);
-        System.out.println(i.toString());
-    }
-
-}
-
-public static void main(String[] args) {
-    // Upcasting during addition to the array:
-    Instrument[] orchestra = {
-            new Wind(),
-            new Percussion(),
-            new Stringed(),
-            // new Brass(),
-            //new Woodwind()
-    };
-    tuneAll(orchestra);
-
-}</code></pre><p>}</p>
-<pre><code>###第九章 练习11</code></pre><p>interface Processor{<br>    String name();<br>    Object process(Object input);<br>}<br>class Class{<br>    public static void process(Processor p, Object s){<br>        System.out.println(“using Processor” + p.name());<br>        System.out.println(p.process(s));<br>    }<br>}<br>class charterPaidSwapper{<br>    static String swapper(String s){<br>        StringBuilder sb =  new StringBuilder(s);<br>        for (int i = 0; i &lt; sb.length()-1; i+=2) {<br>            char c1 = sb.charAt(i);<br>            char c2 = sb.charAt(i + 1);<br>            sb.setCharAt(i,c2);<br>            sb.setCharAt(i+1,c1);<br>        }<br>        return sb.toString();<br>    }<br>}</p>
-<p>class charAdapter implements Processor{</p>
-<pre><code>@Override
-public String name() {
-    return getClass().getSimpleName();
-}
-
-@Override
-public Object process(Object input) {
-    return charterPaidSwapper.swapper((String)input);
-}</code></pre><p>}<br>public class Test103 {<br>    public static void main(String[] args) {<br>        Class.process(new charAdapter(),”ABCDE”);<br>        Class.process(new charAdapter(),”12345”);<br>    }<br>}</p>
-<pre><code>###第九章  练习12</code></pre><p>interface CanClimb{<br>    void  Climb();<br>}<br>interface CanFight{<br>    void  Fight();<br>}<br>interface CanSwim{<br>    void  swim();<br>}<br>interface CanFly{<br>    void  fly();<br>}<br>class ActionCharactor{<br>    public void Fight(){}<br>}</p>
-<p>class Hero extends ActionCharactor implements CanClimb,CanFight,CanSwim,CanFly{</p>
-<pre><code>@Override
-public void Climb() {
-    System.out.println(&quot;Hero.Climb()&quot;);
-}
-
-@Override
-public void swim() {
-
-}
-
-@Override
-public void fly() {
-
-}</code></pre><p>}<br>public class Test104 {<br>    public static void c(CanClimb cc){cc.Climb();}<br>    public static void f(CanFight cc){cc.Fight();}<br>    public static void cs(CanSwim cc){cc.swim();}<br>    public static void cf(CanFly cc){cc.fly();}<br>    public static void a(ActionCharactor cc){cc.Fight();}</p>
-<pre><code>public static void main(String[] args) {
-    Hero hero = new Hero();
-    c(hero);
-    f(hero);
-    cs(hero);
-    cf(hero);
-    a(hero);
-}</code></pre><p>}<br>    ###第九章  练习13</p>
-<p>interface One1{<br>    void method1();<br>}<br>interface One2 extends One1{<br>    void method1();<br>}<br>interface One3 extends One1{<br>    void method1();<br>}<br>interface One4 extends One2,One3{</p>
-<p>}<br>public class Test105 implements One4 {</p>
-<pre><code>@Override
-public void method1() {
-    System.out.println(this + &quot;  &quot; + &quot;method1()&quot;);
-}
-
-public static void main(String[] args) {
-    Test105 test105 = new Test105();
-    test105.method1();
-}</code></pre><p>}</p>
-<pre><code>###第九章  练习14</code></pre><p>interface Monster {<br>    void Method1();</p>
-<pre><code>void Method2();</code></pre><p>}</p>
-<p>interface Jinjin {<br>    void Method3();</p>
-<pre><code>void Method4();</code></pre><p>}</p>
-<p>interface Yiyi {<br>    void Method5();</p>
-<pre><code>void Method6();</code></pre><p>}</p>
-<p>interface Renren extends Monster, Jinjin, Yiyi {<br>    void Method7();<br>}</p>
-<p>class Class1 {</p>
-<p>}</p>
-<p>class Class2 extends Class1 {<br>    Renren renren = new Renren() {<br>        @Override<br>        public void Method7() {</p>
-<pre><code>    }
-
-    @Override
-    public void Method5() {
-
-    }
-
-    @Override
-    public void Method6() {
-
-    }
-
-    @Override
-    public void Method3() {
-
-    }
-
-    @Override
-    public void Method4() {
-
-    }
-
-    @Override
-    public void Method1() {
-
-    }
-
-    @Override
-    public void Method2() {
-
-    }
-};</code></pre><p>}</p>
-<p>class Clacc {<br>    public static void M(Object m) {</p>
-<pre><code>}
-
-public static void J(Object j) {
-
-}
-
-public static void Y(Object y) {
-}
-
-public static void R(Object r) {
-
-}</code></pre><p>}</p>
-<p>public class Test106 {<br>    public static void main(String[] args) {<br>        Class2 class2 = new Class2();<br>        Clacc.M(class2);<br>        Clacc.J(class2);<br>        Clacc.R(class2);<br>        Clacc.Y(class2);<br>    }<br>}</p>
-<pre><code>###第九章  练习15</code></pre><p>interface Monster2 {<br>    void Method1();</p>
-<pre><code>void Method2();</code></pre><p>}</p>
-<p>interface Jinjin2 {<br>    void Method3();</p>
-<pre><code>void Method4();</code></pre><p>}</p>
-<p>interface Yiyi2 {<br>    void Method5();</p>
-<pre><code>void Method6();</code></pre><p>}</p>
-<p>interface Renren2 extends Monster2, Jinjin2, Yiyi2 {<br>    void Method7();<br>}</p>
-<p>class Class3 {</p>
-<p>}</p>
-<p>class Class4 extends Class2 {<br>    Renren renren = new Renren() {<br>        @Override<br>        public void Method7() {</p>
-<pre><code>    }
-
-    @Override
-    public void Method5() {
-
-    }
-
-    @Override
-    public void Method6() {
-
-    }
-
-    @Override
-    public void Method3() {
-
-    }
-
-    @Override
-    public void Method4() {
-
-    }
-
-    @Override
-    public void Method1() {
-
-    }
-
-    @Override
-    public void Method2() {
-
-    }
-};</code></pre><p>}</p>
-<p>class Clacc2 {<br>    public static void M(Object m) {</p>
-<pre><code>}
-
-public static void J(Object j) {
-
-}
-
-public static void Y(Object y) {
-}
-
-public static void R(Object r) {
-
-}</code></pre><p>}</p>
-<p>abstract class ATTClass{<br>    abstract void att();<br>}<br>public class Test107 extends ATTClass {<br>    @Override<br>    void att() {<br>        System.out.println(“Test107.att()”);<br>    }<br>    public static void main(String[] args) {<br>        Class4 class4 = new Class4();<br>        Clacc.M(class4);<br>        Clacc.J(class4);<br>        Clacc.R(class4);<br>        Clacc.Y(class4);<br>        new Test107().att();</p>
-<pre><code>}</code></pre><p>}</p>
-<pre><code>#练习18</code></pre><p>/** * java编程思想第九章  练习18 */<br>    interface Cycle10{<br>    void method1();<br>}<br>interface Cycle10Factory{<br>    Cycle10 getCycle10();<br>}<br>class Unicycle10 implements Cycle10{</p>
-<pre><code>@Override
-public void method1() {
-    System.out.println(&quot;Unicycle10.method1()&quot;);
-}</code></pre><p>}</p>
-<p>class Unicycle10Factory implements Cycle10Factory{</p>
-<pre><code>@Override
-public Cycle10 getCycle10() {
-    return new Unicycle10();
-}</code></pre><p>}</p>
-<p>class Bicycle10 implements Cycle10{</p>
-<pre><code>@Override
-public void method1() {
-    System.out.println(&quot;Bicycle10.method1()&quot;);
-}</code></pre><p>}</p>
-<p>class Bicycle10Factory implements Cycle10Factory{</p>
-<pre><code>@Override
-public Cycle10 getCycle10() {
-    return new Bicycle10();
-}</code></pre><p>}<br>class Tricycle10 implements Cycle10{</p>
-<pre><code>@Override
-public void method1() {
-    System.out.println(&quot;Tricycle10.method1()&quot;);
-}</code></pre><p>}<br>class Tricycle10Factory implements Cycle10Factory{</p>
-<pre><code>@Override
-public Cycle10 getCycle10() {
-    return new Tricycle10();
-}</code></pre><p>}<br>public class Test110 {<br>    public static void Test1(Unicycle10Factory unicycle10Factory) {<br>        Cycle10 cycle10 = unicycle10Factory.getCycle10();<br>        cycle10.method1();<br>    }</p>
-<pre><code>public static void Test2(Bicycle10Factory bicycle10Factory) {
-    Cycle10 cycle10 = bicycle10Factory.getCycle10();
-    cycle10.method1();
-}
-
-public static void Test3(Tricycle10Factory tricycle10Factory) {
-    Cycle10 cycle10 = tricycle10Factory.getCycle10();
-    cycle10.method1();
-}
-
-public static void main(String[] args) {
-    Test1(new Unicycle10Factory());
-    Test2(new Bicycle10Factory());
-    Test3(new Tricycle10Factory());
-
-
-}</code></pre><p>}</p>
-<pre><code>#练习19</code></pre><p>/**</p>
-<ul>
-<li>java编程思想第九章 练习19</li>
-<li>/</li>
-</ul>
-<p>public class Test111 {<br>    public static ThrowImpl ThrowFileFactory1(){<br>        return new ThrowImpl().getThrow();<br>    }<br>    public static FilpImpl ThrowFileFactory2(){<br>        return (FilpImpl) new FilpImpl().getfilp();<br>    }</p>
-<pre><code>public static void main(String[] args) {
-   ThrowFileFactory1();
-   ThrowFileFactory2();
-}</code></pre><p>}<br>interface Throw{<br>    ThrowImpl getThrow();<br>}</p>
-<p>interface Filp{<br>    Filp getfilp();<br>}<br>class ThrowImpl implements Throw{</p>
-<pre><code>@Override
-public ThrowImpl getThrow() {
-    System.out.println(&quot;工厂方法实现了抛硬币功能&quot;);
-    return new ThrowImpl();
-}</code></pre><p>}</p>
-<p>class FilpImpl implements Filp{<br>    @Override<br>    public Filp getfilp() {<br>        System.out.println(“工厂方法执行了掷筛子功能”);<br>        return new FilpImpl();<br>    }<br>}</p>
-
+        
       
     </div>
     
@@ -1504,7 +1095,7 @@ setInterval("createtime()",250);
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共3.4k字</span>
+  <span class="post-count">博客全站共1.6k字</span>
 </div>
 
 
