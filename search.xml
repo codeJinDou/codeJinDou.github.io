@@ -12,7 +12,8 @@
 <p><strong><em>2</em></strong>.初次体验Vue.js为什么不出效果呢?</p>
 <p>把代码看了一遍又一遍,每个代码都没有放过,却还是出错,照着Vue的官方文档翻出来看。</p>
 <p>突然发现e1的问题,把e(1)数字1改成e(l)字母小写l</p>
-<p><img src alt="C:\Users\hasee\Pictures\Screenshots\捕获.PNG"></p>
+<img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/Users\hasee\Pictures\Screenshots\捕获.PNG" style="zoom:80%;">
+
 <p>对了！效果实现了！</p>
 ]]></content>
       <categories>
