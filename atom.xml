@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-14T14:20:38.890Z</updated>
+  <updated>2020-05-14T14:21:47.627Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/"/>
     <id>http://yoursite.com/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/</id>
     <published>2020-05-14T14:01:36.000Z</published>
-    <updated>2020-05-14T14:20:38.890Z</updated>
+    <updated>2020-05-14T14:21:47.627Z</updated>
     
-    <content type="html"><![CDATA[<p><strong><em>内容开始</em></strong></p><p><em>1</em>.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p><p>原来是缺了这个:</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p>这种情况报错只需要把这个标签放到头部即可</p><p><strong><em>2</em></strong>.初次体验Vue.js为什么不出效果呢?</p><p>把代码看了一遍又一遍,每一个都没有放过却还是出错,照着Vue的官方文档翻出来看。</p><p>发现e1的问题,把e(1)改成e(l)</p><p>对了！效果实现了！</p>]]></content>
+    <content type="html"><![CDATA[<p><strong><em>内容开始</em></strong></p><p><em>1</em>.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p><p>原来是缺了这个:</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p>这种情况报错只需要把这个标签放到头部即可</p><p><strong><em>2</em></strong>.初次体验Vue.js为什么不出效果呢?</p><p>把代码看了一遍又一遍,每一个都没有放过却还是出错,照着Vue的官方文档翻出来看。</p><p>发现e1的问题,把e(1)数字1改成e(l)字母小写l</p><p>对了！效果实现了！</p>]]></content>
     
     <summary type="html">
     
