@@ -182,17 +182,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Struts2</title>
-    <url>/2020/04/04/Struts2/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Struts2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>云服务</title>
     <url>/2020/04/02/%E4%BA%91%E6%9C%8D%E5%8A%A1/</url>
     <content><![CDATA[]]></content>
@@ -237,6 +226,28 @@
       </tags>
   </entry>
   <entry>
+    <title>Struts2</title>
+    <url>/2020/04/04/Struts2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Struts2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Kafka</title>
+    <url>/2020/04/04/Kafka/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>消息中间件</category>
+      </categories>
+      <tags>
+        <tag>Kafka</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>消息中间件</title>
     <url>/2020/04/02/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
     <content><![CDATA[]]></content>
@@ -267,17 +278,6 @@
       </categories>
       <tags>
         <tag>Ehcache</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Kafka</title>
-    <url>/2020/04/04/Kafka/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>消息中间件</category>
-      </categories>
-      <tags>
-        <tag>Kafka</tag>
       </tags>
   </entry>
   <entry>
