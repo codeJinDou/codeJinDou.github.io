@@ -195,20 +195,9 @@
       </tags>
   </entry>
   <entry>
-    <title>消息中间件</title>
-    <url>/2020/04/02/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>消息中间件</category>
-      </categories>
-      <tags>
-        <tag>RibbitMQ,</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue常见基本错误</title>
     <url>/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<p><strong>*内容开始</strong>`*</p>
+    <content><![CDATA[<p><strong><em>内容开始</em></strong></p>
 <p>1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p>
 <p>原来是缺了这个:</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
@@ -220,6 +209,17 @@
       </categories>
       <tags>
         <tag>leading end</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>消息中间件</title>
+    <url>/2020/04/02/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>消息中间件</category>
+      </categories>
+      <tags>
+        <tag>RibbitMQ,</tag>
       </tags>
   </entry>
   <entry>
