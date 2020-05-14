@@ -13,6 +13,8 @@
 <p>突然发现e1的问题,把e(1)数字1改成e(l)字母小写l</p>
 <img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/Users\hasee\codeJinDou\blog\source\_posts\Vue常见基本错误\捕获.PNG" style="zoom:80%;">
 
+<img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/Users\hasee\Pictures\Screenshots\捕获.PNG" alt="  " style="zoom:80%;">
+
 <p>对了！效果实现了！</p>
 ]]></content>
       <categories>
@@ -291,6 +293,11 @@
       <tags>
         <tag>Books to practice</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Vue常见基本错误</title>
+    <url>/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF-2/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>RibbitMQ</title>
