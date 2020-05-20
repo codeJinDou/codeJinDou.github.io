@@ -21,7 +21,10 @@
 
 
 
-<p>打开cmd在控制台输入npm install -g @vue/cli     出现如下信息 :</p>
+<p>打开cmd在控制台输入：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install -g @vue/cli</span><br></pre></td></tr></table></figure>
+
+<p> 出现如下信息 :</p>
 <img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/VueCLI3.PNG" style="zoom: 150%;">
 
 <p>则表示成功下载Vue.CLI3的脚手架啦！！</p>
