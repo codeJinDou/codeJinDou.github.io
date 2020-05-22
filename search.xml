@@ -134,6 +134,17 @@
       </tags>
   </entry>
   <entry>
+    <title>Springboot</title>
+    <url>/2020/04/04/Springboot/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Springboot</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>redis</title>
     <url>/2020/04/04/redis/</url>
     <content><![CDATA[]]></content>
@@ -149,32 +160,10 @@
     <url>/2020/04/04/Springcloud/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>云服务</category>
+        <category>微服务系列</category>
       </categories>
       <tags>
         <tag>Springcloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Springboot</title>
-    <url>/2020/04/04/Springboot/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring</title>
-    <url>/2020/04/04/Spring/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
       </tags>
   </entry>
   <entry>
@@ -186,6 +175,17 @@
       </categories>
       <tags>
         <tag>Springmvc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring</title>
+    <url>/2020/04/04/Spring/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
       </tags>
   </entry>
   <entry>
