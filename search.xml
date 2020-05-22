@@ -12,11 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Herbernate</title>
-    <url>/2020/04/04/Herbernate/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Java编程思想第四版(Interfaces )----第9章课后练习1-19(个人练习)</title>
     <url>/2020/04/01/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E7%AC%AC%E5%9B%9B%E7%89%88(Interfaces%20)----%E7%AC%AC9%E7%AB%A0%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A01-19(%E4%B8%AA%E4%BA%BA%E7%BB%83%E4%B9%A0)/</url>
     <content><![CDATA[<hr>
@@ -89,122 +84,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Kafka</title>
-    <url>/2020/04/04/Kafka/</url>
+    <title>前后端分离</title>
+    <url>/2020/05/14/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>消息中间件</category>
+        <category>前后端分离</category>
       </categories>
       <tags>
-        <tag>Kafka</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RibbitMQ</title>
-    <url>/2020/04/04/RibbitMQ/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Spring</title>
-    <url>/2020/04/04/Spring/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Springboot</title>
-    <url>/2020/04/04/Springboot/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Springcloud</title>
-    <url>/2020/04/04/Springcloud/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>云服务</category>
-      </categories>
-      <tags>
-        <tag>Springcloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Springmvc</title>
-    <url>/2020/04/04/Springmvc/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Springmvc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Struts2</title>
-    <url>/2020/04/04/Struts2/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Struts2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue常见基本错误</title>
-    <url>/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<p>[TOC]</p>
-<h4 id="1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢"><a href="#1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢" class="headerlink" title="1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?"></a>1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?</h4><p>目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p>
-<p>原来是缺了这个:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>这种情况报错只需要把这个标签放到头部即可</p>
-<h4 id="2-初次体验Vue-js为什么不出效果呢"><a href="#2-初次体验Vue-js为什么不出效果呢" class="headerlink" title="2.初次体验Vue.js为什么不出效果呢?"></a><em>2</em>.初次体验Vue.js为什么不出效果呢?</h4><p>把代码看了一遍又一遍,每个代码都没有放过,却还是出错,照着Vue的官方文档翻出来看。</p>
-<p>突然发现e1的问题,把e(1)数字1改成e(l)字母小写l</p>
-<img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/捕获.PNG" style="zoom:80%;">
-
-<p>对了！！！效果实现了！！！！</p>
-<h4 id="3-在搭建Vue的运行环境是-在下载Vue-Cli3脚手架时报了如下错"><a href="#3-在搭建Vue的运行环境是-在下载Vue-Cli3脚手架时报了如下错" class="headerlink" title="3.在搭建Vue的运行环境是,在下载Vue-Cli3脚手架时报了如下错:"></a>3.在搭建Vue的运行环境是,在下载Vue-Cli3脚手架时报了如下错:</h4><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm ERR! code EEXIST</span><br><span class="line">npm ERR! <span class="built_in">path</span> C:\Users\hasee\AppData\Roaming\npm\node_modules\@vue\cli\bin\vue.js</span><br><span class="line">npm ERR! dest C:\Users\hasee\AppData\Roaming\npm\vue.<span class="built_in">cmd</span></span><br><span class="line">npm ERR! EEXIST: file already exists, <span class="built_in">cmd</span> shim 'C:\Users\hasee\AppData\Roaming\npm\node_modules\@vue\cli\bin\vue.js' -&gt; 'C:\Users\hasee\AppData\Roaming\npm\vue.<span class="built_in">cmd</span>'</span><br><span class="line">npm ERR! File exists: C:\Users\hasee\AppData\Roaming\npm\vue.<span class="built_in">cmd</span></span><br><span class="line">npm ERR! Remove the existing file and try again, or run npm</span><br><span class="line">npm ERR! with --force to overwrite files recklessly.</span><br><span class="line"></span><br><span class="line">npm ERR! A complete log of this run can be found <span class="keyword">in</span>:</span><br><span class="line">npm ERR!     C:\Users\hasee\AppData\Roaming\npm-cache\_logs\<span class="number">2020</span>-<span class="number">05</span>-<span class="number">20</span>T14_07_31_294Z-debug.log</span><br></pre></td></tr></table></figure>
-
-<p>这个问题用了两三个小时,几乎CSDN答案全部试了一遍都没对,因为之前下载过npm,现在从新下载npm.CLI3想要覆盖之前的npm下载脚手架npm.Cli2,现在导致失败,最终找到问题:</p>
-<p> C:\Users\hasee\AppData\Roaming\npm  下面的npm文件夹删除就好了:</p>
-<img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/VueCLI3删除.PNG" style="zoom:100%;">
-
-
-
-<p>打开cmd在控制台输入：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install -g @vue/cli</span><br></pre></td></tr></table></figure>
-
-<p> 出现如下信息 :</p>
-<img src="/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/VueCLI3.PNG" style="zoom: 150%;">
-
-<p>则表示成功下载Vue.CLI3的脚手架啦！！</p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>leading end</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leancloud</title>
-    <url>/2020/04/04/leancloud/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>云服务</category>
-      </categories>
-      <tags>
-        <tag>leancloud</tag>
+        <tag>前后端分离</tag>
       </tags>
   </entry>
   <entry>
@@ -219,14 +106,58 @@
       </tags>
   </entry>
   <entry>
-    <title>前后端分离</title>
-    <url>/2020/05/14/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/</url>
+    <title>Springcloud</title>
+    <url>/2020/04/04/Springcloud/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>前后端分离</category>
+        <category>云服务</category>
       </categories>
       <tags>
-        <tag>前后端分离</tag>
+        <tag>Springcloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Springboot</title>
+    <url>/2020/04/04/Springboot/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Springboot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring</title>
+    <url>/2020/04/04/Spring/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Springmvc</title>
+    <url>/2020/04/04/Springmvc/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Springmvc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爪哇frame</title>
+    <url>/2020/04/02/%E7%88%AA%E5%93%87frame/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Mybaties</tag>
       </tags>
   </entry>
   <entry>
@@ -263,14 +194,36 @@
       </tags>
   </entry>
   <entry>
-    <title>微服务系列</title>
-    <url>/2020/04/02/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%B3%BB%E5%88%97/</url>
+    <title>爪哇SE</title>
+    <url>/2020/04/02/%E7%88%AA%E5%93%87SE/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>微服务系列</category>
+        <category>爪哇SE</category>
       </categories>
       <tags>
-        <tag>Dubbo</tag>
+        <tag>等等</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Struts2</title>
+    <url>/2020/04/04/Struts2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>爪哇frame</category>
+      </categories>
+      <tags>
+        <tag>Struts2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Kafka</title>
+    <url>/2020/04/04/Kafka/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>消息中间件</category>
+      </categories>
+      <tags>
+        <tag>Kafka</tag>
       </tags>
   </entry>
   <entry>
@@ -285,35 +238,15 @@
       </tags>
   </entry>
   <entry>
-    <title>爪哇SE</title>
-    <url>/2020/04/02/%E7%88%AA%E5%93%87SE/</url>
+    <title>leancloud</title>
+    <url>/2020/04/04/leancloud/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>爪哇SE</category>
+        <category>云服务</category>
       </categories>
       <tags>
-        <tag>等等</tag>
+        <tag>leancloud</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>爪哇frame</title>
-    <url>/2020/04/02/%E7%88%AA%E5%93%87frame/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>爪哇frame</category>
-      </categories>
-      <tags>
-        <tag>Mybaties</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>这是我的第一篇博客文章</title>
-    <url>/2020/03/31/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<pre><code>##一 1.这是我的第一篇博客文章
-        今天第一天注册个人博客,到来的朋友我们可以一起学习进步！
-        哈哈!
-
-        --</code></pre>]]></content>
   </entry>
   <entry>
     <title>缓存系列</title>
@@ -325,5 +258,35 @@
       <tags>
         <tag>Ehcache</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>微服务系列</title>
+    <url>/2020/04/02/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>微服务系列</category>
+      </categories>
+      <tags>
+        <tag>Dubbo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RibbitMQ</title>
+    <url>/2020/04/04/RibbitMQ/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Herbernate</title>
+    <url>/2020/04/04/Herbernate/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>这是我的第一篇博客文章</title>
+    <url>/2020/03/31/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<pre><code>##一 1.这是我的第一篇博客文章
+        今天第一天注册个人博客,到来的朋友我们可以一起学习进步！
+        哈哈!
+
+        --</code></pre>]]></content>
   </entry>
 </search>
