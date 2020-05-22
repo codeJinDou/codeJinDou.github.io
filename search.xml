@@ -5,7 +5,7 @@
     <url>/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/</url>
     <content><![CDATA[<ul>
 <li><input disabled type="checkbox"> <blockquote>
-<h2 id="—-内容开始—"><a href="#—-内容开始—" class="headerlink" title="—-内容开始—-"></a><a href>—-内容开始—-</a></h2></blockquote>
+<h2 id="—-内容开始—"><a href="#—-内容开始—" class="headerlink" title="—-内容开始—-"></a><strong><a href>—-内容开始—-</a></strong></h2></blockquote>
 </li>
 </ul>
 <h4 id="1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢"><a href="#1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢" class="headerlink" title="1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?"></a>1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?</h4><p>目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p>
