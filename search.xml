@@ -3,7 +3,8 @@
   <entry>
     <title>Vue常见基本错误</title>
     <url>/2020/05/14/Vue%E5%B8%B8%E8%A7%81%E5%9F%BA%E6%9C%AC%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<h3 id="–内容开始–"><a href="#–内容开始–" class="headerlink" title="–内容开始–"></a>–内容开始–</h3><h4 id="1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢"><a href="#1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢" class="headerlink" title="1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?"></a>1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?</h4><p>目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p>
+    <content><![CDATA[<p>[TOC]</p>
+<h4 id="1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢"><a href="#1-在学习Vue的过程中-出现这个Uncaught-ReferenceError-Vue-is-not-defined-未捕获ReferenceError-Vue没有定义-为什么Vue没有定义呢" class="headerlink" title="1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?"></a>1.在学习Vue的过程中,出现这个Uncaught ReferenceError: Vue is not defined ,  未捕获ReferenceError:Vue没有定义 ,为什么Vue没有定义呢?</h4><p>目前说的最多的是”过早关闭脚本标签”, 没有Vue标签所以js无法找到</p>
 <p>原来是缺了这个:</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">"https://cdn.jsdelivr.net/npm/vue/dist/vue.js"</span>&gt;&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
 
