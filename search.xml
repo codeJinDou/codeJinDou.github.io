@@ -43,7 +43,7 @@
     <title>前后端分离</title>
     <url>/2020/05/14/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/</url>
     <content><![CDATA[<h4 id="1、背景"><a href="#1、背景" class="headerlink" title="1、背景"></a>1、背景</h4><p>前后单分离已成为互联网开发的业界标准使用方式,前后端分离会为以后的大型分布式架构、微服务架构、多端化服务(多种客户端,比如:车载终端,IOS、安卓、浏览器)打下坚实的基础,这个步骤是系统架构从”孩子成长为成人”的必经之路。</p>
-<h6 id="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互。"><a href="#前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互。" class="headerlink" title="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互。"></a><em>前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互。</em></h6><p>[<a href="http://www.cnblogs.com/artech/p/3506553.html]" target="_blank" rel="noopener">http://www.cnblogs.com/artech/p/3506553.html]</a>: </p>
+<h5 id="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互"><a href="#前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互" class="headerlink" title="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互"></a>前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互</h5><p>[<a href="http://www.cnblogs.com/artech/p/3506553.html]" target="_blank" rel="noopener">http://www.cnblogs.com/artech/p/3506553.html]</a>: </p>
 <p>以前的Java Web项目大多数都是java程序员既当爹、又当妈，既搞前端又搞后端,随着时代的发展,渐渐的许多大中小公司开始把后端的界限分的越来越清,前端搞前端的事情,后端主要负责后端的事情,正所谓术业有专攻,一个人如果什么都会,那他肯定什么都不精。大中型企业需要专业人才,小公司需要全才,但是对于个人职业发展来说,前后端需要分离。</p>
 <h4 id="2、未分离时代"><a href="#2、未分离时代" class="headerlink" title="2、未分离时代"></a>2、未分离时代</h4><p>早期使用的MVC框架,Jsp+Servlet的结构图如下:</p>
 <img src="/2020/05/14/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/MVC.PNG" style="zoom:100%;">
@@ -92,7 +92,7 @@
 
 
 
-<h4 id="4、总结"><a href="#4、总结" class="headerlink" title="4、总结"></a>4、总结</h4><p>创新之路不会止步,无论是前后端分离模式还是其他模式,都是为了更好的解决需求,公司适合经济承受能力或者技术的协调,选择便于开发模式才是最好的。</p>
+<h4 id="4、总结"><a href="#4、总结" class="headerlink" title="4、总结"></a>4、总结</h4><p>创新之路不会止步,无论是前后端分离模式还是其他模式,都是为了更好的解决需求,公司适合经济承受能力或者技术的协调,选择便于开发模式才是最好的！</p>
 ]]></content>
       <categories>
         <category>前后端分离</category>
@@ -176,7 +176,9 @@
   <entry>
     <title>Springboot</title>
     <url>/2020/04/04/Springboot/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="开篇"><a href="#开篇" class="headerlink" title="开篇"></a>开篇</h3><p>多年来,随着新功能的增加,spring变得越来越复杂,只需访问 <a href="https://spring.io/projects" target="_blank" rel="noopener">https://spring.io/projects</a> 页面,我们就可以看到在我们的应用程序中所有的sping不同的功能，如果必须启动一个spring项目,我们必须构建一个新的路径和Maven依赖关系,配置应用服务器,添加spring配置。因此,开始一个新的spring项目会越来越繁琐麻烦,必须从头做着同样的事情。</p>
+<p>spirngboot是解决这个问题的方法。他是一个快速开发的第三方框架,没有springcloud框架和springboot框架共同集成不能说是一个微服务项目。避免了重复的配置和样板代码,帮助我们以最少的工作量,更加健壮的使用spring功能。</p>
+]]></content>
       <categories>
         <category>爪哇frame</category>
       </categories>
@@ -185,9 +187,10 @@
       </tags>
   </entry>
   <entry>
-    <title>redis</title>
-    <url>/2020/04/04/redis/</url>
-    <content><![CDATA[]]></content>
+    <title>Redis</title>
+    <url>/2020/04/04/Redis/</url>
+    <content><![CDATA[<p>Redis的全程是:Remoto Dictionary Server,本质上是一个Key-Value的内存型数据库,很像memcached,整个数据库统统加载在内存上进行操作,定义通过异步操作把数据flush到硬盘上进行存储。</p>
+]]></content>
       <categories>
         <category>消息中间件</category>
       </categories>
@@ -198,7 +201,8 @@
   <entry>
     <title>Springcloud</title>
     <url>/2020/04/04/Springcloud/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>springcoud是基于springboot框架的spring应用程序,用于和外部系统的集成。</p>
+]]></content>
       <categories>
         <category>微服务系列</category>
       </categories>
