@@ -43,8 +43,8 @@
     <title>前后端分离</title>
     <url>/2020/05/14/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/</url>
     <content><![CDATA[<h4 id="1、背景"><a href="#1、背景" class="headerlink" title="1、背景"></a>1、背景</h4><p>前后单分离已成为互联网开发的业界标准使用方式,前后端分离会为以后的大型分布式架构、微服务架构、多端化服务(多种客户端,比如:车载终端,IOS、安卓、浏览器)打下坚实的基础,这个步骤是系统架构从”孩子成长为成人”的必经之路。</p>
-<h5 id="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互"><a href="#前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互" class="headerlink" title="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互"></a>前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互</h5><p>[<a href="http://www.cnblogs.com/artech/p/3506553.html]" target="_blank" rel="noopener">http://www.cnblogs.com/artech/p/3506553.html]</a>: </p>
-<p>以前的Java Web项目大多数都是java程序员既当爹、又当妈，既搞前端又搞后端,随着时代的发展,渐渐的许多大中小公司开始把后端的界限分的越来越清,前端搞前端的事情,后端主要负责后端的事情,正所谓术业有专攻,一个人如果什么都会,那他肯定什么都不精。大中型企业需要专业人才,小公司需要全才,但是对于个人职业发展来说,前后端需要分离。</p>
+<h5 id="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互"><a href="#前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU-API接口并使用JSON数据进行交互" class="headerlink" title="前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互"></a>前后端分离的核心思想是前端HTML通过Ajax调用后端的RESTFU API接口并使用JSON数据进行交互</h5><p><strong>关于RESTFU API文章</strong>   ——– <a href="http://www.cnblogs.com/artech/p/3506553.html" target="_blank" rel="noopener">http://www.cnblogs.com/artech/p/3506553.html</a> </p>
+<p>以前的<strong>Java</strong> Web项目大多数都是java程序员既当爹、又当妈，既搞前端又搞后端,随着时代的发展,渐渐的许多大中小公司开始把后端的界限分的越来越清,前端搞前端的事情,后端主要负责后端的事情,正所谓术业有专攻,一个人如果什么都会,那他肯定什么都不精。大中型企业需要专业人才,小公司需要全才,但是对于个人职业发展来说,前后端需要分离。</p>
 <h4 id="2、未分离时代"><a href="#2、未分离时代" class="headerlink" title="2、未分离时代"></a>2、未分离时代</h4><p>早期使用的MVC框架,Jsp+Servlet的结构图如下:</p>
 <img src="/2020/05/14/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/MVC.PNG" style="zoom:100%;">
 
