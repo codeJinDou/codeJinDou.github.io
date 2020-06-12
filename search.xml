@@ -51,15 +51,15 @@
 <p>大致就是所有来自客户端的请求全部转发给所谓控制器的Servlet,它接受请求,并根据适当的信息转发给Jsp。同时,Servlet还根据Jsp的需求生成JavaBean 的实例并输出给Jsp环境。Jsp可以通过直接调用方法或者使用userBean的自定义标签得到JavaBeans中的数据。</p>
 <p>这个View可以使用FreeMaker等模板引擎。使用了这些模板引擎,可以使开发过程的人员分工更加明确,提高开发效率。</p>
 <p>那么在这个时期,开发方式有两种:</p>
-<p><strong>方式一:</strong></p>
-<ul>
+<h6 id="方式一"><a href="#方式一" class="headerlink" title="方式一:"></a><strong>方式一:</strong></h6><ul>
 <li>产品根据客户需求设计出原型</li>
 <li>UI根据原型,出具体的设计图,后端先开发接口</li>
 <li>前端工程师根据设计图做成HTML页面</li>
 <li>后端将HTML改成Jsp,并和后端开法的服务接口集成</li>
 <li>测试上线</li>
 </ul>
-<h6 id="方式二"><a href="#方式二" class="headerlink" title="方式二:"></a><strong>方式二:</strong></h6><ul>
+<p><strong>方式二:</strong></p>
+<ul>
 <li>产品根据客户需求设计出原型</li>
 <li>UI根据原型出具体的设计图</li>
 <li>后端开发服务接口</li>
@@ -92,7 +92,7 @@
 
 
 
-<h4 id="4、总结"><a href="#4、总结" class="headerlink" title="4、总结"></a>4、总结</h4><p>创新之路不会止步,无论是前后端分离模式还是其他模式,都是为了更好的解决需求,公司适合经济承受能力或者技术的协调,选择便于开发模式才是最好的！</p>
+<h4 id="4、总结"><a href="#4、总结" class="headerlink" title="4、总结"></a>4、总结</h4><p>创新之路不会止步,无论是前后端分离模式还是其他模式,都是为了更好的解决需求,公司经济承受能力或者技术的协调,选择便于开发模式才是最好的！</p>
 ]]></content>
       <categories>
         <category>前后端分离</category>
@@ -177,7 +177,7 @@
     <title>Springboot</title>
     <url>/2020/04/04/Springboot/</url>
     <content><![CDATA[<h3 id="开篇"><a href="#开篇" class="headerlink" title="开篇"></a>开篇</h3><p>多年来,随着新功能的增加,spring变得越来越复杂,只需访问 <a href="https://spring.io/projects" target="_blank" rel="noopener">https://spring.io/projects</a> 页面,我们就可以看到在我们的应用程序中所有的sping不同的功能，如果必须启动一个spring项目,我们必须构建一个新的路径和Maven依赖关系,配置应用服务器,添加spring配置。因此,开始一个新的spring项目会越来越繁琐麻烦,必须从头做着同样的事情。</p>
-<p>spirngboot是解决这个问题的方法。他是一个快速开发的第三方框架,没有springcloud框架和springboot框架共同集成不能说是一个微服务项目。避免了重复的配置和样板代码,帮助我们以最少的工作量,更加健壮的使用spring功能。</p>
+<p>SpringBoot是解决这个问题的方法。他是一个快速开发的第三方框架,SpringBoot框架如果以没和SpringCloud共同集成开发不能说是一个微服务项目。避免了重复的配置和样板代码,帮助我们以最少的工作量,更加健壮的使用spring功能。</p>
 ]]></content>
       <categories>
         <category>爪哇frame</category>
@@ -195,13 +195,13 @@
         <category>消息中间件</category>
       </categories>
       <tags>
-        <tag>redis</tag>
+        <tag>Redis</tag>
       </tags>
   </entry>
   <entry>
     <title>Springcloud</title>
     <url>/2020/04/04/Springcloud/</url>
-    <content><![CDATA[<p>springcoud是基于springboot框架的spring应用程序,用于和外部系统的集成。</p>
+    <content><![CDATA[<p>SpringCloud是基于SpringBoot框架的Spring应用程序,用于和外部系统的集成。</p>
 ]]></content>
       <categories>
         <category>微服务系列</category>
